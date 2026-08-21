@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 21/08/2026, 20:52:11
+   Gerado pelo painel administrativo em 21/08/2026, 20:53:23
    ===================================================== */
 
 window.CATEGORIES = [
@@ -127,19 +127,19 @@ window.PRODUCTS = [
   {
     "id": "p4",
     "category": "destaques",
-    "namePt": "Tallarines",
+    "namePt": "Talharim",
     "nameEs": "Tallarines",
     "descPt": "Macarrão oriental. Opção com camarão.",
-    "descEs": "Tallarines orientales. Opción con camarones.",
+    "descEs": "Tallarines orientales. Opción con camarone amiguoito",
     "price": null,
     "variants": [
       {
-        "label": "Tradicional",
-        "price": 30
+        "label": "Tradicion",
+        "price": 1
       },
       {
-        "label": "Com camarão",
-        "price": 35
+        "label": "Com camar",
+        "price": 2
       }
     ],
     "needsConfirm": false
