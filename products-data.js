@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 26/08/2026, 19:45:20
+   Gerado pelo painel administrativo em 26/08/2026, 19:51:29
    ===================================================== */
 
 window.CATEGORIES = [
@@ -65,7 +65,7 @@ window.PRODUCTS = [
   {
     "id": "p1",
     "category": "destaques",
-    "namePt": "Arroz Chinês misto flango qleu",
+    "namePt": "Arroz Chinês misto flango q",
     "nameEs": "Arroz Chino Mixto",
     "descPt": "Frango, camarão, presunto e lombo salgado.",
     "descEs": "Pollo, camarón, jamón y cochino.",
@@ -82,7 +82,8 @@ window.PRODUCTS = [
     ],
     "needsConfirm": false,
     "descPt2": "servings2",
-    "tag": "destaque"
+    "tag": "destaque",
+    "img": "IMG_5642.HEIC"
   },
   {
     "id": "p2",
