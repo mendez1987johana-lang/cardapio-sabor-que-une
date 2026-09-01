@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 01/09/2026, 00:58:38
+   Gerado pelo painel administrativo em 01/09/2026, 01:03:27
    ===================================================== */
 
 window.CATEGORIES = [
@@ -151,14 +151,15 @@ window.PRODUCTS = [
   {
     "id": "p5",
     "category": "destaques",
-    "namePt": "Prato do Dia — Arroz Misto",
-    "nameEs": "Plato del Día — Arroz Mixto",
+    "namePt": "Prato do Dia — combo de arroz chines",
+    "nameEs": "Plato del Día — Combo de Arroz chino ",
     "descPt": "Arroz mixto com costela ou frango agridoce, acompanha chop suey ou batata frita.",
     "descEs": "Arroz mixto con costilla o pollo agridulce, acompaña chop suey o papas fritas.",
     "price": 50,
     "variants": null,
     "needsConfirm": false,
-    "tag": "destaque"
+    "tag": "destaque",
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p5-1788235402764.jpg"
   },
   {
     "id": "p6",
