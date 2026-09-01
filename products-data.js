@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 01/09/2026, 17:30:15
+   Gerado pelo painel administrativo em 01/09/2026, 18:24:06
    ===================================================== */
 
 window.CATEGORIES = [
@@ -178,8 +178,8 @@ window.PRODUCTS = [
     "category": "destaques",
     "namePt": "Costeleta Fresca",
     "nameEs": "Chuleta Fresca",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Bisteca com arroz salada ou batata ",
+    "descEs": "Chuleta con arroz ensalada y tajada ou papa frita ",
     "price": 25,
     "variants": null,
     "needsConfirm": false
@@ -204,7 +204,8 @@ window.PRODUCTS = [
     "descEs": "Arroz, carne mechada, caraota, huevo y tajada.",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p9-1788297843444.jpg"
   },
   {
     "id": "p10",
