@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 01/09/2026, 18:25:17
+   Gerado pelo painel administrativo em 05/09/2026, 20:52:36
    ===================================================== */
 
 window.CATEGORIES = [
@@ -346,7 +346,8 @@ window.PRODUCTS = [
     "descEs": "Pollo desmenuzado, aguacate y mayonesa.",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p20-1788652350443.jpg"
   },
   {
     "id": "p21",
