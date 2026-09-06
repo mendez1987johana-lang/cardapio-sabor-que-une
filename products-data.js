@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 05/09/2026, 20:55:25
+   Gerado pelo painel administrativo em 05/09/2026, 21:18:26
    ===================================================== */
 
 window.CATEGORIES = [
@@ -159,7 +159,7 @@ window.PRODUCTS = [
     "variants": null,
     "needsConfirm": false,
     "tag": "destaque",
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p5-1788235402764.jpg"
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p5-1788653900527.jpg"
   },
   {
     "id": "p6",
@@ -335,7 +335,8 @@ window.PRODUCTS = [
     "descEs": "Carne mechada con queso derretido.",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p19-1788652596771.jpg"
   },
   {
     "id": "p20",
@@ -358,7 +359,8 @@ window.PRODUCTS = [
     "descEs": "Relleno completo con todos los ingredientes.",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p21-1788652572034.jpg"
   },
   {
     "id": "p22",
@@ -380,7 +382,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 15,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p23-1788652634867.jpg"
   },
   {
     "id": "p24",
@@ -391,7 +394,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 15,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p24-1788652680582.jpg"
   },
   {
     "id": "p25",
@@ -512,7 +516,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 30,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p35-1788653820324.jpg"
   },
   {
     "id": "p36",
@@ -589,7 +594,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p42-1788653848215.jpg"
   },
   {
     "id": "p43",
