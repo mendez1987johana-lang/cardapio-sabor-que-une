@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 05/09/2026, 21:18:26
+   Gerado pelo painel administrativo em 05/09/2026, 21:30:50
    ===================================================== */
 
 window.CATEGORIES = [
@@ -301,7 +301,7 @@ window.PRODUCTS = [
     "price": 25,
     "variants": null,
     "needsConfirm": false,
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p16-1788297882089.jpg"
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p16-1788654639495.jpg"
   },
   {
     "id": "p17",
@@ -371,7 +371,8 @@ window.PRODUCTS = [
     "descEs": "Arepa rellena estilo hamburguesa.",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p22-1788654412760.jpg"
   },
   {
     "id": "p23",
