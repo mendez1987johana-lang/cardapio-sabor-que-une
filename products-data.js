@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 26/09/2026, 23:53:14
+   Gerado pelo painel administrativo em 26/09/2026, 23:54:23
    ===================================================== */
 
 window.CATEGORIES = [
@@ -158,7 +158,8 @@ window.PRODUCTS = [
     "price": 50,
     "variants": null,
     "needsConfirm": false,
-    "tag": "destaque"
+    "tag": "destaque",
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p5-1790477640646.jpg"
   },
   {
     "id": "p6",
@@ -169,7 +170,8 @@ window.PRODUCTS = [
     "descEs": "Con arroz, ensalada, tajada y aguacate.",
     "price": 40,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p6-1790477618248.jpg"
   },
   {
     "id": "p7",
