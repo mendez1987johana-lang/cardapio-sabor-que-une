@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 27/09/2026, 00:28:58
+   Gerado pelo painel administrativo em 01/10/2026, 11:16:12
    ===================================================== */
 
 window.CATEGORIES = [
@@ -63,6 +63,18 @@ window.CATEGORIES = [
 
 window.PRODUCTS = [
   {
+    "id": "p_custom_1790365355303",
+    "category": "destaques",
+    "namePt": "Novo produto",
+    "nameEs": "Nuevo producto",
+    "descPt": "",
+    "descEs": "",
+    "price": 0,
+    "variants": null,
+    "needsConfirm": false,
+    "img": ""
+  },
+  {
     "id": "p1",
     "category": "destaques",
     "namePt": "Arroz Chinês misto",
@@ -77,13 +89,13 @@ window.PRODUCTS = [
       },
       {
         "label": "G",
-        "price": 35
+        "price": 45
       }
     ],
     "needsConfirm": false,
     "descPt2": "servings2",
     "tag": "destaque",
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p1-1787786004286.jpg"
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p1-1788234859631.jpg"
   },
   {
     "id": "p2",
@@ -104,7 +116,7 @@ window.PRODUCTS = [
       }
     ],
     "needsConfirm": false,
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p2-1787786593959.jpg"
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p2-1788652521053.jpg"
   },
   {
     "id": "p3",
@@ -125,7 +137,7 @@ window.PRODUCTS = [
       }
     ],
     "needsConfirm": false,
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p3-1787787018297.jpg"
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p3-1788235111025.jpg"
   },
   {
     "id": "p4",
@@ -137,29 +149,29 @@ window.PRODUCTS = [
     "price": null,
     "variants": [
       {
-        "label": "Tradicion",
-        "price": 1
+        "label": "Tradicional ",
+        "price": 30
       },
       {
-        "label": "Com camar",
-        "price": 2
+        "label": "Con camarones",
+        "price": 35
       }
     ],
     "needsConfirm": false,
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p4-1790477578485.jpg"
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p4-1787924875689.jpg"
   },
   {
     "id": "p5",
     "category": "destaques",
-    "namePt": "Prato do Dia — Arroz Misto",
-    "nameEs": "Plato del Día — Arroz Mixto",
+    "namePt": "Prato do Dia — combo de arroz chines",
+    "nameEs": "Plato del Día — Combo de Arroz chino ",
     "descPt": "Arroz mixto com costela ou frango agridoce, acompanha chop suey ou batata frita.",
     "descEs": "Arroz mixto con costilla o pollo agridulce, acompaña chop suey o papas fritas.",
     "price": 50,
     "variants": null,
     "needsConfirm": false,
     "tag": "destaque",
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p5-1790477640646.jpg"
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p5-1788653900527.jpg"
   },
   {
     "id": "p6",
@@ -171,19 +183,18 @@ window.PRODUCTS = [
     "price": 40,
     "variants": null,
     "needsConfirm": false,
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p6-1790477618248.jpg"
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p6-1788294586299.jpg"
   },
   {
     "id": "p7",
     "category": "destaques",
     "namePt": "Costeleta Fresca",
     "nameEs": "Chuleta Fresca",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Bisteca com arroz salada ou batata ",
+    "descEs": "Chuleta con arroz ensalada y tajada ou papa frita ",
     "price": 25,
     "variants": null,
-    "needsConfirm": false,
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p7-1790477696350.jpg"
+    "needsConfirm": false
   },
   {
     "id": "p8",
@@ -194,8 +205,7 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 30,
     "variants": null,
-    "needsConfirm": false,
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p8-1790477974176.jpg"
+    "needsConfirm": false
   },
   {
     "id": "p9",
@@ -206,7 +216,8 @@ window.PRODUCTS = [
     "descEs": "Arroz, carne mechada, caraota, huevo y tajada.",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p9-1788297843444.jpg"
   },
   {
     "id": "p10",
@@ -217,19 +228,19 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 35,
     "variants": null,
-    "needsConfirm": false,
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p10-1790477713590.jpg"
+    "needsConfirm": false
   },
   {
     "id": "p11",
     "category": "destaques",
     "namePt": "Cordon Bleu",
     "nameEs": "Cordon Bleu",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Peito de frango recheio de presunto e queijo.",
+    "descEs": "Milanesa de pollo rellena de jamon y queso. ",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p11-1790864141554.jpg"
   },
   {
     "id": "p12",
@@ -303,7 +314,7 @@ window.PRODUCTS = [
     "price": 25,
     "variants": null,
     "needsConfirm": false,
-    "img": "images/p16-1789867750148.jpg"
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p16-1788654639495.jpg"
   },
   {
     "id": "p17",
@@ -314,7 +325,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 20,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p17-1788297905523.jpg"
   },
   {
     "id": "p18",
@@ -336,7 +348,8 @@ window.PRODUCTS = [
     "descEs": "Carne mechada con queso derretido.",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p19-1788652596771.jpg"
   },
   {
     "id": "p20",
@@ -347,7 +360,8 @@ window.PRODUCTS = [
     "descEs": "Pollo desmenuzado, aguacate y mayonesa.",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p20-1788652350443.jpg"
   },
   {
     "id": "p21",
@@ -358,7 +372,8 @@ window.PRODUCTS = [
     "descEs": "Relleno completo con todos los ingredientes.",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p21-1788652572034.jpg"
   },
   {
     "id": "p22",
@@ -369,7 +384,8 @@ window.PRODUCTS = [
     "descEs": "Arepa rellena estilo hamburguesa.",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p22-1788654412760.jpg"
   },
   {
     "id": "p23",
@@ -380,7 +396,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 15,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p23-1788652634867.jpg"
   },
   {
     "id": "p24",
@@ -391,7 +408,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 15,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p24-1788652680582.jpg"
   },
   {
     "id": "p25",
@@ -512,7 +530,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 30,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p35-1788653820324.jpg"
   },
   {
     "id": "p36",
@@ -589,7 +608,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p42-1788653848215.jpg"
   },
   {
     "id": "p43",
