@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 01/10/2026, 11:20:51
+   Gerado pelo painel administrativo em 01/10/2026, 11:22:57
    ===================================================== */
 
 window.CATEGORIES = [
@@ -62,18 +62,6 @@ window.CATEGORIES = [
 ];
 
 window.PRODUCTS = [
-  {
-    "id": "p_custom_1790365355303",
-    "category": "destaques",
-    "namePt": "Novo produto",
-    "nameEs": "Nuevo producto",
-    "descPt": "",
-    "descEs": "",
-    "price": 0,
-    "variants": null,
-    "needsConfirm": false,
-    "img": ""
-  },
   {
     "id": "p1",
     "category": "destaques",
@@ -542,7 +530,8 @@ window.PRODUCTS = [
     "descEs": "Adicional de aguacate: +R$5.",
     "price": 50,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p36-1790864570485.jpg"
   },
   {
     "id": "p37",
