@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 01/10/2026, 11:22:57
+   Gerado pelo painel administrativo em 01/10/2026, 11:24:00
    ===================================================== */
 
 window.CATEGORIES = [
@@ -538,11 +538,12 @@ window.PRODUCTS = [
     "category": "cachapa",
     "namePt": "Cachapa Queijo e Porco",
     "nameEs": "Cachapa Queso y Cochino",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Massa de milho com queijo e porco frito. ",
+    "descEs": "Masa de maiz molido, con queso y cochino frito.",
     "price": 60,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p37-1790864594046.jpg"
   },
   {
     "id": "p38",
