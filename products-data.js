@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 16:47:26
+   Gerado pelo painel administrativo em 02/10/2026, 16:50:10
    ===================================================== */
 
 window.CATEGORIES = [
@@ -62,6 +62,42 @@ window.CATEGORIES = [
 ];
 
 window.PRODUCTS = [
+  {
+    "id": "p_custom_1790970570937",
+    "category": "destaques",
+    "namePt": "Samba morango",
+    "nameEs": "Samba fresa",
+    "descPt": "",
+    "descEs": "",
+    "price": 8,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970570937-1790970577563.jpg"
+  },
+  {
+    "id": "p_custom_1790970491922",
+    "category": "destaques",
+    "namePt": "Samba chocolate",
+    "nameEs": "Samba chocolate",
+    "descPt": "",
+    "descEs": "",
+    "price": 8,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970491922-1790970501713.jpg"
+  },
+  {
+    "id": "p_custom_1790970447275",
+    "category": "destaques",
+    "namePt": "Susy",
+    "nameEs": "Susy",
+    "descPt": "",
+    "descEs": "",
+    "price": 8,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970447275-1790970455324.jpg"
+  },
   {
     "id": "p_custom_1790970412060",
     "category": "destaques",
