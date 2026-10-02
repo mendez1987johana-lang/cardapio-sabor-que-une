@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 15:41:24
+   Gerado pelo painel administrativo em 02/10/2026, 15:45:44
    ===================================================== */
 
 window.CATEGORIES = [
@@ -1073,22 +1073,24 @@ window.PRODUCTS = [
     "category": "pratos",
     "namePt": "Parmegiana",
     "nameEs": "Parmegiana",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "File de carne, molho de tomate, queijo.\nArriz, farofa e salada.",
+    "descEs": "Milanesa de carne, en salda de tomate, queso.\nArroz, farofa y ensalada.",
     "price": 30,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p80-1790966676040.jpg"
   },
   {
     "id": "p81",
     "category": "pratos",
     "namePt": "Strogonoff",
     "nameEs": "Strogonoff",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Strogonoff acompanha arroz e batata frita. ",
+    "descEs": "Strogonoff acompañado de arroz y papas fritas.",
     "price": 30,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p81-1790966563948.jpg"
   },
   {
     "id": "p82",
@@ -1099,7 +1101,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 30,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p82-1790966528849.jpg"
   },
   {
     "id": "p83",
