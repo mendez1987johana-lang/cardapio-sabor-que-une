@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 17:16:50
+   Gerado pelo painel administrativo em 02/10/2026, 17:53:05
    ===================================================== */
 
 window.CATEGORIES = [
@@ -887,7 +887,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 35,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p43-1790972250603.jpg"
   },
   {
     "id": "p44",
@@ -909,7 +910,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p45-1790972283489.jpg"
   },
   {
     "id": "p46",
