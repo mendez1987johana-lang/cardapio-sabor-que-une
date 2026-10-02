@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 16:51:14
+   Gerado pelo painel administrativo em 02/10/2026, 16:53:13
    ===================================================== */
 
 window.CATEGORIES = [
@@ -62,6 +62,42 @@ window.CATEGORIES = [
 ];
 
 window.PRODUCTS = [
+  {
+    "id": "p_custom_1790970756774",
+    "category": "destaques",
+    "namePt": "Flips grande",
+    "nameEs": "Flips grande",
+    "descPt": "",
+    "descEs": "",
+    "price": 25,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970756774-1790970770075.jpg"
+  },
+  {
+    "id": "p_custom_1790970711776",
+    "category": "destaques",
+    "namePt": "Flips pequeno",
+    "nameEs": "Flips pequeño",
+    "descPt": "",
+    "descEs": "",
+    "price": 12,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970711776-1790970724364.jpg"
+  },
+  {
+    "id": "p_custom_1790970678559",
+    "category": "destaques",
+    "namePt": "Savoy",
+    "nameEs": "Savoy",
+    "descPt": "",
+    "descEs": "",
+    "price": 8,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970678559-1790970688284.jpg"
+  },
   {
     "id": "p_custom_1790970619743",
     "category": "destaques",
