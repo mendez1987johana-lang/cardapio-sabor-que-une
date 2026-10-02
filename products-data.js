@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 17:53:05
+   Gerado pelo painel administrativo em 02/10/2026, 19:36:40
    ===================================================== */
 
 window.CATEGORIES = [
@@ -1163,11 +1163,12 @@ window.PRODUCTS = [
     "category": "porcoes",
     "namePt": "Lumpia (2 unidades)",
     "nameEs": "Lumpia (2 unidades)",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Recheio de presunto, repolho e cenoura.",
+    "descEs": "Relleno de jamon, repollo y zanahoria.",
     "price": 30,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p64-1790980565789.jpg"
   },
   {
     "id": "p65",
