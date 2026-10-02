@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- VERSAO: horarios-00h + categorias (02/10/2026) -->
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -451,7 +452,7 @@ a:focus-visible, button:focus-visible, input:focus-visible{ outline:3px solid va
     <h2>🕐 <span data-i18n="hours_title">Horário de Funcionamento</span></h2>
     <ul class="hours-list">
       <li><span data-i18n="days_weekday">Segunda a quinta</span><span>10h – 23h</span></li>
-      <li><span data-i18n="days_weekend">Sexta a domingo</span><span>10h – 12h</span></li>
+      <li><span data-i18n="days_weekend">Sexta a domingo</span><span>10h – 00h</span></li>
     </ul>
     <div class="hero-hours" id="hours-badge-2" style="margin-top:10px;">
       <span class="status-dot" id="status-dot-2"></span>
@@ -648,7 +649,7 @@ function updateHoursBadge(){
   const hour = spTime.getHours();
   const day = spTime.getDay(); // 0=domingo ... 5=sexta, 6=sábado
   const isWeekend = day===0 || day===5 || day===6; // sex, sáb, dom
-  const closeHour = isWeekend ? 12 : 23;
+  const closeHour = isWeekend ? 24 : 23; // sex-dom fecha à meia-noite (24)
   const isOpen = hour >= 10 && hour < closeHour;
   [['status-dot','status-text'],['status-dot-2','status-text-2']].forEach(([dotId,textId])=>{
     const dot = document.getElementById(dotId), txt = document.getElementById(textId);
