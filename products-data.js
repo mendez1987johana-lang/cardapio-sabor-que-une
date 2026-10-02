@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 16:41:08
+   Gerado pelo painel administrativo em 02/10/2026, 16:47:26
    ===================================================== */
 
 window.CATEGORIES = [
@@ -62,6 +62,42 @@ window.CATEGORIES = [
 ];
 
 window.PRODUCTS = [
+  {
+    "id": "p_custom_1790970412060",
+    "category": "destaques",
+    "namePt": "Cocosette",
+    "nameEs": "Cocosette",
+    "descPt": "",
+    "descEs": "",
+    "price": 8,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970412060-1790970419932.jpg"
+  },
+  {
+    "id": "p_custom_1790970348178",
+    "category": "destaques",
+    "namePt": "Carré pequeno",
+    "nameEs": "Carré pequeño",
+    "descPt": "",
+    "descEs": "",
+    "price": 0,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970348178-1790970360922.jpg"
+  },
+  {
+    "id": "p_custom_1790970270949",
+    "category": "destaques",
+    "namePt": "Carré grande ",
+    "nameEs": "Carré grande ",
+    "descPt": "",
+    "descEs": "",
+    "price": 18,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970270949-1790970305740.jpg"
+  },
   {
     "id": "p1",
     "category": "destaques",
@@ -434,7 +470,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 20,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p27-1790970086188.jpg"
   },
   {
     "id": "p28",
@@ -445,7 +482,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 20,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p28-1790970104642.jpg"
   },
   {
     "id": "p29",
@@ -468,7 +506,8 @@ window.PRODUCTS = [
     "descEs": "[CONFIRMAR INFORMACIÓN] Precio base no informado — cada adicional R$3.",
     "price": null,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p30-1790970146796.jpg"
   },
   {
     "id": "p31",
