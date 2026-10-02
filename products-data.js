@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 16:53:13
+   Gerado pelo painel administrativo em 02/10/2026, 17:05:28
    ===================================================== */
 
 window.CATEGORIES = [
@@ -62,6 +62,126 @@ window.CATEGORIES = [
 ];
 
 window.PRODUCTS = [
+  {
+    "id": "p_custom_1790971497171",
+    "category": "destaques",
+    "namePt": "Salsa Fritz Picante",
+    "nameEs": "Salsa Fritz Picante",
+    "descPt": "",
+    "descEs": "",
+    "price": 22,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971497171-1790971503445.jpg"
+  },
+  {
+    "id": "p_custom_1790971446274",
+    "category": "destaques",
+    "namePt": "Salsa Fritz Ahumadita",
+    "nameEs": "Salsa Fritz Ahumadita",
+    "descPt": "",
+    "descEs": "",
+    "price": 22,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971446274-1790971454243.jpg"
+  },
+  {
+    "id": "p_custom_1790971380727",
+    "category": "destaques",
+    "namePt": "Salsa Fritz Milho",
+    "nameEs": "Salsa Fritz Maiz",
+    "descPt": "",
+    "descEs": "",
+    "price": 22,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971380727-1790971389314.jpg"
+  },
+  {
+    "id": "p_custom_1790971343310",
+    "category": "destaques",
+    "namePt": "Adobo “La Comadre”",
+    "nameEs": "Adobo “La Comadre”",
+    "descPt": "",
+    "descEs": "",
+    "price": 0,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971343310-1790971354294.jpg"
+  },
+  {
+    "id": "p_custom_1790971294762",
+    "category": "destaques",
+    "namePt": "Casabe",
+    "nameEs": "Casabe",
+    "descPt": "",
+    "descEs": "",
+    "price": 15,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971294762-1790971309683.jpg"
+  },
+  {
+    "id": "p_custom_1790971233299",
+    "category": "destaques",
+    "namePt": "Mayonesa Mavesa",
+    "nameEs": "Mayonesa Mavesa",
+    "descPt": "",
+    "descEs": "",
+    "price": null,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971233299-1790971243457.jpg"
+  },
+  {
+    "id": "p_custom_1790971203166",
+    "category": "destaques",
+    "namePt": "Rikesa",
+    "nameEs": "Rikesa",
+    "descPt": "",
+    "descEs": "",
+    "price": 40,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971203166-1790971210754.jpg"
+  },
+  {
+    "id": "p_custom_1790971165520",
+    "category": "destaques",
+    "namePt": "Pepitonas Picantes",
+    "nameEs": "Pepitonas Picantes ",
+    "descPt": "",
+    "descEs": "",
+    "price": 0,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971165520-1790971172965.jpg"
+  },
+  {
+    "id": "p_custom_1790971097619",
+    "category": "destaques",
+    "namePt": "Rica Chicha ",
+    "nameEs": "Rica Chicha ",
+    "descPt": "",
+    "descEs": "",
+    "price": 0,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971097619-1790971114421.jpg"
+  },
+  {
+    "id": "p_custom_1790970797854",
+    "category": "destaques",
+    "namePt": "Cerelac",
+    "nameEs": "Cerelac",
+    "descPt": "",
+    "descEs": "",
+    "price": 35,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970797854-1790970834007.jpg"
+  },
   {
     "id": "p_custom_1790970756774",
     "category": "destaques",
