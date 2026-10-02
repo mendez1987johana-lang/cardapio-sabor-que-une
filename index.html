@@ -588,16 +588,33 @@ const I18N = {
 let currentLang = 'pt';
 
 /* ================= CATEGORIES ================= */
-const CATEGORIES = window.CATEGORIES;
+/* Pré-visualização do painel admin: só com ?preview=1 usa os dados salvos neste navegador.
+   Visitantes comuns sempre veem o products-data.js publicado. */
+const IS_PREVIEW = new URLSearchParams(location.search).has('preview');
+const CATEGORIES = (function(){
+  const base = window.CATEGORIES;
+  if(IS_PREVIEW){
+    try{
+      const saved = JSON.parse(localStorage.getItem('sabor_que_une_categories') || 'null');
+      if(Array.isArray(saved)){
+        const ids = new Set(saved.map(c=>c.id));
+        return saved.concat(base.filter(c=>!ids.has(c.id)));
+      }
+    }catch(e){}
+  }
+  return base;
+})();
 
 /* ================= PRODUCTS ================= */
 /* variants: [{label, price}] | price: single number | needsConfirm: true flags grouped-price items to review with client */
 
 const PRODUCTS = (function(){
-  try{
-    const saved = localStorage.getItem('sabor_que_une_products');
-    if(saved) return JSON.parse(saved);
-  }catch(e){}
+  if(IS_PREVIEW){
+    try{
+      const saved = localStorage.getItem('sabor_que_une_products');
+      if(saved) return JSON.parse(saved);
+    }catch(e){}
+  }
   return window.PRODUCTS;
 })();
 
@@ -646,7 +663,7 @@ function renderCatNav(){
   const nav = document.getElementById('cat-nav');
   const allLabel = currentLang==='pt' ? 'Todos' : 'Todos';
   nav.innerHTML = `<button class="cat-chip ${activeCategory==='all'?'active':''}" onclick="selectCategory('all')">${allLabel}</button>` +
-    CATEGORIES.map(c=>`<button class="cat-chip ${activeCategory===c.id?'active':''}" onclick="selectCategory('${c.id}')">${currentLang==='pt'?c.pt:c.es}</button>`).join('');
+    CATEGORIES.filter(c=>PRODUCTS.some(p=>p.category===c.id)).map(c=>`<button class="cat-chip ${activeCategory===c.id?'active':''}" onclick="selectCategory('${c.id}')">${currentLang==='pt'?c.pt:c.es}</button>`).join('');
 }
 function selectCategory(id){
   activeCategory = id;

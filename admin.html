@@ -103,7 +103,7 @@ main{max-width:1100px; margin:0 auto; padding:20px;}
   <div class="header-inner">
     <h1>🛠️ Painel do Cardápio — Sabor Que Une</h1>
     <div style="display:flex; gap:8px; align-items:center;">
-      <a href="index.html" target="_blank">Ver site ↗</a>
+      <a href="index.html?preview=1" target="_blank">Ver site ↗</a>
       <a href="#" onclick="openPubSettings(); return false;" id="pubStatusLink">⚙️ Publicação</a>
     </div>
   </div>
@@ -112,7 +112,7 @@ main{max-width:1100px; margin:0 auto; padding:20px;}
 <main>
   <div class="banner">
     <b>Como funciona:</b> tudo o que você editar aqui é salvo automaticamente neste navegador e o
-    <b>site já atualiza sozinho</b> quando aberto no mesmo aparelho/navegador. Para publicar a mudança
+    <b>site já atualiza sozinho</b> quando aberto pelo botão "Ver site ↗" neste navegador. Para publicar a mudança
     para <b>todos os clientes</b>, clique em <b>"🚀 Publicar automaticamente"</b> lá embaixo — ele envia
     a atualização direto pro GitHub sozinho (é só configurar uma vez em "⚙️ Publicação" no topo). Agora
     também dá pra enviar fotos direto do celular/computador, sem precisar de link — é só abrir um produto
@@ -124,7 +124,10 @@ main{max-width:1100px; margin:0 auto; padding:20px;}
     <select id="filterCat"><option value="all">Todas as categorias</option></select>
   </div>
 
-  <div id="addWrap" class="add-product-card" onclick="addNewProduct()">+ Adicionar novo produto</div>
+  <div style="display:flex; gap:10px; flex-wrap:wrap;">
+    <div id="addWrap" class="add-product-card" style="flex:1; min-width:200px;" onclick="addNewProduct()">+ Adicionar novo produto</div>
+    <div class="add-product-card" style="flex:1; min-width:200px;" onclick="addNewCategory()">+ Criar nova categoria</div>
+  </div>
 
   <div id="list"></div>
 </main>
@@ -194,7 +197,8 @@ main{max-width:1100px; margin:0 auto; padding:20px;}
 <script>
 /* ================== DADOS ================== */
 const STORAGE_KEY = 'sabor_que_une_products';
-let CATEGORIES = window.CATEGORIES.slice();
+const CAT_STORAGE_KEY = 'sabor_que_une_categories';
+let CATEGORIES = loadCategories();
 let PRODUCTS = loadProducts();
 let openId = null;
 
@@ -205,6 +209,45 @@ function loadProducts(){
   }catch(e){}
   // clona os produtos padrão
   return JSON.parse(JSON.stringify(window.PRODUCTS));
+}
+
+function loadCategories(){
+  const base = window.CATEGORIES.map(c=>({...c}));
+  try{
+    const saved = JSON.parse(localStorage.getItem(CAT_STORAGE_KEY) || 'null');
+    if(Array.isArray(saved)){
+      // mantém as salvas e acrescenta qualquer categoria do arquivo que ainda não exista
+      const ids = new Set(saved.map(c=>c.id));
+      return saved.concat(base.filter(c=>!ids.has(c.id)));
+    }
+  }catch(e){}
+  return base;
+}
+
+function persistCategories(){
+  localStorage.setItem(CAT_STORAGE_KEY, JSON.stringify(CATEGORIES));
+}
+
+function slugify(s){
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+}
+
+function addNewCategory(){
+  const pt = (prompt('Nome da nova categoria (em português):') || '').trim();
+  if(!pt) return;
+  if(CATEGORIES.some(c=>c.pt.trim().toLowerCase()===pt.toLowerCase())){
+    alert('Já existe uma categoria com esse nome.');
+    return;
+  }
+  const es = (prompt('Nome em espanhol (deixe igual se não souber):', pt) || '').trim() || pt;
+  const base = slugify(pt) || ('cat-' + Date.now());
+  let id = base, n = 2;
+  while(CATEGORIES.some(c=>c.id===id)) id = base + '-' + (n++);
+  CATEGORIES.push({id, pt, es});
+  persistCategories();
+  refreshCategorySelect();
+  render();
+  showToast('Categoria "' + pt + '" criada ✓ Abra um produto e escolha essa categoria para ele aparecer no cardápio.');
 }
 
 function persist(){
@@ -227,13 +270,21 @@ function catLabel(id){
 }
 
 /* ================== TOOLBAR ================== */
-function initToolbar(){
+function refreshCategorySelect(){
   const sel = document.getElementById('filterCat');
+  const current = sel.value;
+  sel.innerHTML = '<option value="all">Todas as categorias</option>';
   CATEGORIES.forEach(c=>{
     const opt = document.createElement('option');
     opt.value = c.id; opt.textContent = c.pt;
     sel.appendChild(opt);
   });
+  sel.value = CATEGORIES.some(c=>c.id===current) ? current : 'all';
+}
+
+function initToolbar(){
+  const sel = document.getElementById('filterCat');
+  refreshCategorySelect();
   sel.addEventListener('change', render);
   document.getElementById('search').addEventListener('input', render);
 }
@@ -483,8 +534,9 @@ document.getElementById('fileInput').addEventListener('change', function(e){
       if(!result.PRODUCTS || !result.CATEGORIES) throw new Error('Arquivo inválido');
       PRODUCTS = result.PRODUCTS;
       CATEGORIES = result.CATEGORIES;
+      persistCategories();
       persist();
-      initToolbar();
+      refreshCategorySelect();
       render();
       showToast('Cardápio importado com sucesso ✓');
     }catch(err){
@@ -497,8 +549,10 @@ document.getElementById('fileInput').addEventListener('change', function(e){
 function resetAll(){
   if(!confirm('Isso vai descartar todas as alterações feitas neste navegador e voltar ao cardápio padrão. Continuar?')) return;
   localStorage.removeItem(STORAGE_KEY);
+  localStorage.removeItem(CAT_STORAGE_KEY);
   PRODUCTS = JSON.parse(JSON.stringify(window.PRODUCTS));
-  CATEGORIES = window.CATEGORIES.slice();
+  CATEGORIES = window.CATEGORIES.map(c=>({...c}));
+  refreshCategorySelect();
   persist();
   render();
 }
