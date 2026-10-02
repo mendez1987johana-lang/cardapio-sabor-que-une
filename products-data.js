@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 16:36:08
+   Gerado pelo painel administrativo em 02/10/2026, 16:40:06
    ===================================================== */
 
 window.CATEGORIES = [
@@ -298,8 +298,8 @@ window.PRODUCTS = [
     "category": "arepas",
     "namePt": "Arepa de Carne Desfiada",
     "nameEs": "Arepa de Carne Mechada",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Arepa recheia de carne desfiada temperada. ",
+    "descEs": "Arepa rellena de carne mechada sazonada.",
     "price": 25,
     "variants": null,
     "needsConfirm": false,
@@ -310,8 +310,8 @@ window.PRODUCTS = [
     "category": "arepas",
     "namePt": "Arepa de Frango",
     "nameEs": "Arepa de Pollo",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Arepa recheia de frango desfiado temperado.",
+    "descEs": "Arepa rellena de pollo esmechado sazonado.",
     "price": 20,
     "variants": null,
     "needsConfirm": false,
@@ -322,11 +322,12 @@ window.PRODUCTS = [
     "category": "arepas",
     "namePt": "Arepa de Presunto & Queijo",
     "nameEs": "Arepa de Jamón y Queso",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Arepa recheia de presunto y queijo",
+    "descEs": "Arepa rellena de jamon y queso.",
     "price": 20,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p18-1790969815020.jpg"
   },
   {
     "id": "p19",
