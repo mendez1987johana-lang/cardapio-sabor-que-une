@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 15:11:35
+   Gerado pelo painel administrativo em 02/10/2026, 15:38:24
    ===================================================== */
 
 window.CATEGORIES = [
@@ -1354,7 +1354,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 12,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p103-1790966049733.jpg"
   },
   {
     "id": "p104",
@@ -1365,7 +1366,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 10,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p104-1790966060609.jpg"
   },
   {
     "id": "p105",
@@ -1376,7 +1378,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 10,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p105-1790966070580.jpg"
   },
   {
     "id": "p106",
@@ -1387,7 +1390,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 10,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p106-1790966082362.jpg"
   },
   {
     "id": "p107",
@@ -1398,7 +1402,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 10,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p107-1790966093928.jpg"
   },
   {
     "id": "p108",
@@ -1409,7 +1414,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 12,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p108-1790966107306.jpg"
   },
   {
     "id": "p109",
@@ -1420,7 +1426,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 15,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p109-1790966118158.jpg"
   },
   {
     "id": "p110",
@@ -1431,7 +1438,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 15,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p110-1790966127930.jpg"
   },
   {
     "id": "p111",
@@ -1442,7 +1450,8 @@ window.PRODUCTS = [
     "descEs": "[CONFIRMAR] También aparece \"P R$5\" — posible tamaño pequeño.",
     "price": 7,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p111-1790966139018.jpg"
   },
   {
     "id": "p112",
@@ -1453,7 +1462,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 20,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p112-1790966149702.jpg"
   },
   {
     "id": "p113",
@@ -1473,7 +1483,8 @@ window.PRODUCTS = [
         "price": 15
       }
     ],
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p113-1790966161552.jpg"
   },
   {
     "id": "p114",
@@ -1493,7 +1504,8 @@ window.PRODUCTS = [
         "price": 5
       }
     ],
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p114-1790966172916.jpg"
   },
   {
     "id": "p115",
@@ -1504,7 +1516,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 12,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p115-1790966183310.jpg"
   },
   {
     "id": "p116",
@@ -1515,7 +1528,8 @@ window.PRODUCTS = [
     "descEs": "Unidad individual: R$12.",
     "price": 55,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p116-1790966195501.jpg"
   },
   {
     "id": "p117",
@@ -1526,7 +1540,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 55,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p117-1790966206454.jpg"
   },
   {
     "id": "p118",
@@ -1537,7 +1552,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 55,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p118-1790966223243.jpg"
   },
   {
     "id": "p119",
@@ -1548,7 +1564,8 @@ window.PRODUCTS = [
     "descEs": "Unidad individual: R$6.",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p119-1790966235351.jpg"
   },
   {
     "id": "p120",
@@ -1559,7 +1576,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p120-1790966247896.jpg"
   },
   {
     "id": "p121",
@@ -1570,7 +1588,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p121-1790966257882.jpg"
   },
   {
     "id": "p122",
@@ -1581,7 +1600,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p122-1790966268865.jpg"
   },
   {
     "id": "p123",
@@ -1592,7 +1612,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p123-1790966277446.jpg"
   },
   {
     "id": "p124",
@@ -1603,7 +1624,8 @@ window.PRODUCTS = [
     "descEs": "Trago individual: R$40.",
     "price": 380,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p124-1790966287867.jpg"
   },
   {
     "id": "p125",
@@ -1614,7 +1636,8 @@ window.PRODUCTS = [
     "descEs": "Trago individual: R$30.",
     "price": 300,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p125-1790966298154.jpg"
   },
   {
     "id": "p126",
