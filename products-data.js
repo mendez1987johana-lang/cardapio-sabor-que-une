@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 15:38:24
+   Gerado pelo painel administrativo em 02/10/2026, 15:41:24
    ===================================================== */
 
 window.CATEGORIES = [
@@ -1648,7 +1648,8 @@ window.PRODUCTS = [
     "descEs": "[CONFIRMAR] Precio asumido igual al Red Label.",
     "price": 300,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p126-1790966311275.jpg"
   },
   {
     "id": "p127",
@@ -1659,7 +1660,8 @@ window.PRODUCTS = [
     "descEs": "[CONFIRMAR] Precio asumido igual al Red Label.",
     "price": 300,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p127-1790966320019.jpg"
   },
   {
     "id": "p128",
@@ -1670,7 +1672,8 @@ window.PRODUCTS = [
     "descEs": "Trago individual: R$20.",
     "price": 200,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p128-1790966327997.jpg"
   },
   {
     "id": "p129",
@@ -1681,6 +1684,7 @@ window.PRODUCTS = [
     "descEs": "Precios a consultar.",
     "price": null,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p129-1790966345585.jpg"
   }
 ];
