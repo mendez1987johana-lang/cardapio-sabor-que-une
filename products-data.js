@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 17:05:28
+   Gerado pelo painel administrativo em 02/10/2026, 17:16:50
    ===================================================== */
 
 window.CATEGORIES = [
@@ -62,6 +62,30 @@ window.CATEGORIES = [
 ];
 
 window.PRODUCTS = [
+  {
+    "id": "p_custom_1790971592463",
+    "category": "destaques",
+    "namePt": "Axion",
+    "nameEs": "Axion",
+    "descPt": "",
+    "descEs": "",
+    "price": 20,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971592463-1790971601540.jpg"
+  },
+  {
+    "id": "p_custom_1790971530249",
+    "category": "destaques",
+    "namePt": "Nestea pessego-limao",
+    "nameEs": "Nestea durazno-limon",
+    "descPt": "",
+    "descEs": "",
+    "price": 12,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790971530249-1790971544483.jpg"
+  },
   {
     "id": "p_custom_1790971497171",
     "category": "destaques",
@@ -500,7 +524,8 @@ window.PRODUCTS = [
         "price": 35
       }
     ],
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p13-1790972158413.jpg"
   },
   {
     "id": "p14",
@@ -615,7 +640,7 @@ window.PRODUCTS = [
     "price": 30,
     "variants": null,
     "needsConfirm": true,
-    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p22-1788654412760.jpg"
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p22-1790972205585.jpg"
   },
   {
     "id": "p23",
