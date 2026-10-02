@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 16:50:10
+   Gerado pelo painel administrativo em 02/10/2026, 16:51:14
    ===================================================== */
 
 window.CATEGORIES = [
@@ -62,6 +62,18 @@ window.CATEGORIES = [
 ];
 
 window.PRODUCTS = [
+  {
+    "id": "p_custom_1790970619743",
+    "category": "destaques",
+    "namePt": "Toronto",
+    "nameEs": "Toronto",
+    "descPt": "",
+    "descEs": "",
+    "price": 4,
+    "variants": null,
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p_custom_1790970619743-1790970636133.jpg"
+  },
   {
     "id": "p_custom_1790970570937",
     "category": "destaques",
