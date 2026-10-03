@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 23:46:12
+   Gerado pelo painel administrativo em 03/10/2026, 09:06:03
    ===================================================== */
 
 window.CATEGORIES = [
@@ -539,8 +539,8 @@ window.PRODUCTS = [
     "category": "pastas",
     "namePt": "Bolonhesa",
     "nameEs": "Boloñesa",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Carne moida, molho de tomate",
+    "descEs": "Carne molida en salsa de tomare",
     "price": 30,
     "variants": null,
     "needsConfirm": false,
@@ -1002,8 +1002,8 @@ window.PRODUCTS = [
     "category": "porcoes",
     "namePt": "Frango Frito Crocante (8 un.)",
     "nameEs": "Pollo Frito Crocante (8 pzs)",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Estilo broaster com batata frita e salada.",
+    "descEs": "Estilo broaster con papas fritas y ensalada",
     "price": 80,
     "variants": null,
     "needsConfirm": false,
@@ -1014,8 +1014,8 @@ window.PRODUCTS = [
     "category": "porcoes",
     "namePt": "Frango Frito Crocante (12 un.)",
     "nameEs": "Pollo Frito Crocante (12 pzs)",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Estilo broaster com batata frita e salada.",
+    "descEs": "Estilo broaster con papas fritas y ensalada.",
     "price": 120,
     "variants": null,
     "needsConfirm": false,
@@ -1063,8 +1063,8 @@ window.PRODUCTS = [
     "category": "porcoes",
     "namePt": "Salchipapas",
     "nameEs": "Salchipapas",
-    "descPt": "",
-    "descEs": "",
+    "descPt": "Batata, salsicha, molhos.",
+    "descEs": "Papas, salchicha, salsas.",
     "price": null,
     "variants": [
       {
@@ -1386,7 +1386,7 @@ window.PRODUCTS = [
     "category": "pratos",
     "namePt": "Parmegiana",
     "nameEs": "Parmegiana",
-    "descPt": "File de carne, molho de tomate, queijo.\nArriz, farofa e salada.",
+    "descPt": "File de carne, molho de tomate, queijo.\nArroz, farofa e salada.",
     "descEs": "Milanesa de carne, en salda de tomate, queso.\nArroz, farofa y ensalada.",
     "price": 30,
     "variants": null,
