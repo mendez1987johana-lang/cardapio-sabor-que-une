@@ -1,6 +1,6 @@
 /* =====================================================
    SABOR QUE UNE — BANCO DE DADOS DO CARDÁPIO
-   Gerado pelo painel administrativo em 02/10/2026, 19:36:40
+   Gerado pelo painel administrativo em 02/10/2026, 23:11:30
    ===================================================== */
 
 window.CATEGORIES = [
@@ -58,13 +58,18 @@ window.CATEGORIES = [
     "id": "alcool",
     "pt": "Bebidas Alcoólicas",
     "es": "Bebidas Alcohólicas"
+  },
+  {
+    "id": "produtos-venezuelanos",
+    "pt": "Produtos Venezuelanos",
+    "es": "Produtos Venezuelanos"
   }
 ];
 
 window.PRODUCTS = [
   {
     "id": "p_custom_1790971592463",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Axion",
     "nameEs": "Axion",
     "descPt": "",
@@ -76,7 +81,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790971530249",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Nestea pessego-limao",
     "nameEs": "Nestea durazno-limon",
     "descPt": "",
@@ -88,7 +93,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790971497171",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Salsa Fritz Picante",
     "nameEs": "Salsa Fritz Picante",
     "descPt": "",
@@ -100,7 +105,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790971446274",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Salsa Fritz Ahumadita",
     "nameEs": "Salsa Fritz Ahumadita",
     "descPt": "",
@@ -112,7 +117,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790971380727",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Salsa Fritz Milho",
     "nameEs": "Salsa Fritz Maiz",
     "descPt": "",
@@ -124,7 +129,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790971343310",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Adobo “La Comadre”",
     "nameEs": "Adobo “La Comadre”",
     "descPt": "",
@@ -136,7 +141,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790971294762",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Casabe",
     "nameEs": "Casabe",
     "descPt": "",
@@ -148,7 +153,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790971233299",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Mayonesa Mavesa",
     "nameEs": "Mayonesa Mavesa",
     "descPt": "",
@@ -160,7 +165,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790971203166",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Rikesa",
     "nameEs": "Rikesa",
     "descPt": "",
@@ -172,7 +177,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790971165520",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Pepitonas Picantes",
     "nameEs": "Pepitonas Picantes ",
     "descPt": "",
@@ -184,7 +189,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790971097619",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Rica Chicha ",
     "nameEs": "Rica Chicha ",
     "descPt": "",
@@ -196,7 +201,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970797854",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Cerelac",
     "nameEs": "Cerelac",
     "descPt": "",
@@ -208,7 +213,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970756774",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Flips grande",
     "nameEs": "Flips grande",
     "descPt": "",
@@ -220,7 +225,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970711776",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Flips pequeno",
     "nameEs": "Flips pequeño",
     "descPt": "",
@@ -232,7 +237,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970678559",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Savoy",
     "nameEs": "Savoy",
     "descPt": "",
@@ -244,7 +249,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970619743",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Toronto",
     "nameEs": "Toronto",
     "descPt": "",
@@ -256,7 +261,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970570937",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Samba morango",
     "nameEs": "Samba fresa",
     "descPt": "",
@@ -268,7 +273,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970491922",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Samba chocolate",
     "nameEs": "Samba chocolate",
     "descPt": "",
@@ -280,7 +285,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970447275",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Susy",
     "nameEs": "Susy",
     "descPt": "",
@@ -292,7 +297,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970412060",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Cocosette",
     "nameEs": "Cocosette",
     "descPt": "",
@@ -304,7 +309,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970348178",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Carré pequeno",
     "nameEs": "Carré pequeño",
     "descPt": "",
@@ -316,7 +321,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p_custom_1790970270949",
-    "category": "destaques",
+    "category": "produtos-venezuelanos",
     "namePt": "Carré grande ",
     "nameEs": "Carré grande ",
     "descPt": "",
@@ -457,7 +462,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 30,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p8-1790991613599.jpg"
   },
   {
     "id": "p9",
@@ -480,7 +486,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 35,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p10-1790991697326.jpg"
   },
   {
     "id": "p11",
@@ -536,7 +543,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 30,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p14-1790984792725.jpg"
   },
   {
     "id": "p15",
@@ -556,7 +564,8 @@ window.PRODUCTS = [
         "price": 45
       }
     ],
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p15-1790984802492.jpg"
   },
   {
     "id": "p16",
@@ -747,7 +756,8 @@ window.PRODUCTS = [
     "descEs": "2 arepas, caraota, queso, huevo y aguacate.",
     "price": 35,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p31-1790984641581.jpg"
   },
   {
     "id": "p32",
@@ -782,7 +792,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 15,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p34-1790984652830.jpg"
   },
   {
     "id": "p35",
@@ -829,7 +840,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 40,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p38-1790991445508.jpg"
   },
   {
     "id": "p39",
@@ -840,7 +852,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 50,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p39-1790991467256.jpg"
   },
   {
     "id": "p40",
@@ -899,7 +912,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 40,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p44-1790984761556.jpg"
   },
   {
     "id": "p45",
@@ -980,7 +994,8 @@ window.PRODUCTS = [
     "descEs": "Estilo Broaster, con papas fritas y ensalada.",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p51-1790984841860.jpg"
   },
   {
     "id": "p52",
@@ -991,7 +1006,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 80,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p52-1790984879356.jpg"
   },
   {
     "id": "p53",
@@ -1002,7 +1018,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 120,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p53-1790984900451.jpg"
   },
   {
     "id": "p54",
@@ -1013,7 +1030,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 60,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p54-1790984910180.jpg"
   },
   {
     "id": "p55",
@@ -1037,7 +1055,8 @@ window.PRODUCTS = [
         "price": 120
       }
     ],
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p55-1790993463012.jpg"
   },
   {
     "id": "p56",
@@ -1125,7 +1144,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 25,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p61-1790984925679.jpg"
   },
   {
     "id": "p62",
@@ -1136,7 +1156,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 45,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p62-1790984934181.jpg"
   },
   {
     "id": "p63",
@@ -1156,7 +1177,8 @@ window.PRODUCTS = [
         "price": 20
       }
     ],
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p63-1790987315214.jpg"
   },
   {
     "id": "p64",
@@ -1179,7 +1201,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p65-1790987333481.jpg"
   },
   {
     "id": "p66",
@@ -1190,7 +1213,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 30,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p66-1790987349858.jpg"
   },
   {
     "id": "p67",
@@ -1201,7 +1225,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 30,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p67-1790987506488.jpg"
   },
   {
     "id": "p68",
@@ -1212,7 +1237,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 5,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p68-1790987538252.jpg"
   },
   {
     "id": "p69",
@@ -1223,7 +1249,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 10,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p69-1790987585554.jpg"
   },
   {
     "id": "p70",
@@ -1234,7 +1261,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 4,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p70-1790987602641.jpg"
   },
   {
     "id": "p71",
@@ -1245,7 +1273,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 5,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p71-1790987619951.jpg"
   },
   {
     "id": "p72",
@@ -1256,7 +1285,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 8,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p72-1790987633436.jpg"
   },
   {
     "id": "p73",
@@ -1267,7 +1297,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 7,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p73-1790987676988.jpg"
   },
   {
     "id": "p74",
@@ -1278,7 +1309,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 25,
     "variants": null,
-    "needsConfirm": true
+    "needsConfirm": true,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p74-1790988376045.jpg"
   },
   {
     "id": "p75",
@@ -1289,7 +1321,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 20,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p75-1790993060109.jpg"
   },
   {
     "id": "p76",
@@ -1300,7 +1333,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 20,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p76-1790993071760.jpg"
   },
   {
     "id": "p77",
@@ -1311,7 +1345,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 20,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p77-1790993081477.jpg"
   },
   {
     "id": "p78",
@@ -1322,7 +1357,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 20,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p78-1790993090894.jpg"
   },
   {
     "id": "p79",
@@ -1342,7 +1378,8 @@ window.PRODUCTS = [
         "price": 70
       }
     ],
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p79-1790993097506.jpg"
   },
   {
     "id": "p80",
@@ -1389,7 +1426,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 15,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p83-1790993126973.jpg"
   },
   {
     "id": "p84",
@@ -1400,7 +1438,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 12,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p84-1790993134405.jpg"
   },
   {
     "id": "p85",
@@ -1411,7 +1450,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 6,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p85-1790993143203.jpg"
   },
   {
     "id": "p86",
@@ -1422,7 +1462,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 6,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p86-1790993150819.jpg"
   },
   {
     "id": "p87",
@@ -1433,7 +1474,8 @@ window.PRODUCTS = [
     "descEs": "",
     "price": 6,
     "variants": null,
-    "needsConfirm": false
+    "needsConfirm": false,
+    "img": "https://raw.githubusercontent.com/mendez1987johana-lang/cardapio-sabor-que-une/main/images/p87-1790993157680.jpg"
   },
   {
     "id": "p88",
